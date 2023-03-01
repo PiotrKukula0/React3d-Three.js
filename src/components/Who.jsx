@@ -8,7 +8,9 @@ const Section = styled.div`
 
 const Who = () => {
   return (
-    <Section>Who</Section>
+    <Section>
+    Who
+    </Section>
   )
 }
 
