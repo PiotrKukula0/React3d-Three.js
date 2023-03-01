@@ -6,10 +6,10 @@ const Section = styled.div`
   scroll-snap-align: center;
 `
 
-const Who = () => {
+const Contact = () => {
   return (
-    <Section>Who</Section>
+    <Section>Contact</Section>
   )
 }
 
-export default Who
+export default Contact
