@@ -50,7 +50,7 @@ const Button = styled.div`
   color: white;
   font-weight: 500;
   text-align: center;
-  width: 100px;
+  width: 120px;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -62,7 +62,6 @@ const Who = () => {
     <Section>
       <Container>
       <Left>
-    /* 3dmodel */
       </Left>
       <Right>
       <Title>
