@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 import styled from "styled-components";
 import Map from "./Map";
 
@@ -81,10 +82,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_id",
-        "template_id",
+        "service_w928ddj",
+        "template_g5vqu0b",
         ref.current,
-        "public_key"
+        "1dgEZEO6xEsR2nJVi"
       )
       .then(
         (result) => {
