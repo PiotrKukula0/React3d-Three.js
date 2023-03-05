@@ -30,7 +30,7 @@ const Links = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 50px;
+  height: 80px;
 `;
 
 const List = styled.ul`
@@ -82,7 +82,6 @@ const Navbar = () => {
           </List>
         </Links>
         <Icons>
-          {/* Changed the image due to copyright problems */}
           <Icon src="./img/search.png" />
           <Button>Hire Now</Button>
         </Icons>
